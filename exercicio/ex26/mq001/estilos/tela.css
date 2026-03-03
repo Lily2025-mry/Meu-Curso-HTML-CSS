@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/* estilos para tela */
+
+* {
+    padding: 0px; /* remove a margem e o preenchimento padrão de todos os elementos para garantir que o layout seja consistente em diferentes navegadores */
+    margin: 0px;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.em;
+}
+
+header {
+    background-color: aqua;
+    margin-bottom: 10px;
+}
+header > h1 {
+    text-align: center;
+}
+menu ul {
+    list-style-type: none; /*remove os marcadores da lista*/
+}
+menu li {
+    background-color: lightskyblue;
+    color: white;
+    display: inline-block; /*faz os itens do menu ficarem lado a lado*/
+    padding: 10px;
+}
+article {
+    width: 600px;
+    display: block; /*faz o elemento se comportar como um bloco, ocupando toda a largura disponível*/
+    margin: auto;
+}
