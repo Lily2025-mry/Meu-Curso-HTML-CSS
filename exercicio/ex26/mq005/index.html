@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midia query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Descobertas Científicas</h1>
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Serviços</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Cientistas descobriram que proteínas presentes no veneno do sapo-cururu da Amazônia são capazes de combater diversas bactérias</h2>
+            <p>Pesquisadores do Instituto Butantan identificaram substâncias no veneno do sapo-cururu amazônico (Rhaebo guttatus) que podem ajudar no combate a bactérias. O estudo analisou as proteínas presentes na secreção do animal.
+
+            A pesquisa foi publicada na revista científica Toxicon e contou com a colaboração de equipes da Universidade Federal de São Paulo (Unifesp) e da Fundação Oswaldo Cruz (Fiocruz), em Rondônia, responsável por fornecer as amostras utilizadas na análise.
+
+            Os resultados indicam que o veneno contém fragmentos de proteína com possível ação antimicrobiana. Essas substâncias podem servir como ponto de partida para pesquisas sobre novos antibióticos.</p>
+
+            <h3>Veneno funciona como defesa do animal</h3>
+
+            <p>Nos sapos, o veneno fica armazenado em glândulas na pele e funciona como um mecanismo de defesa. Ele ajuda a proteger o animal tanto contra predadores quanto contra microrganismos presentes no ambiente, como vírus, bactérias e fungos.
+
+            Por causa dessa função, a secreção costuma reunir várias moléculas com efeitos biológicos diferentes. Entre elas podem existir compostos com ação antibacteriana.
+
+            No estudo com o Rhaebo guttatus, os pesquisadores encontraram vários peptídeos — fragmentos de proteínas — que, em análises feitas por computador, mostraram potencial para combater bactérias.</p>
+
+            <h3>Proteína inesperada</h3>
+
+            <p>
+            Durante a análise, os cientistas também identificaram uma proteína chamada BASP1. Até agora, ela não havia sido encontrada em venenos de sapos, rãs ou pererecas.
+
+            Essa proteína costuma aparecer no sistema nervoso de humanos e outros animais. A hipótese dos pesquisadores é que ela possa ter relação com o funcionamento das glândulas da pele do sapo, ajudando no processo de contração e regeneração após a liberação do veneno.
+
+            Outras proteínas ligadas à contração muscular, imunidade e resposta ao estresse também foram identificadas na secreção.</p>
+
+            <h3>Como o veneno foi analisado</h3>
+
+            <p>Para descobrir quais substâncias estavam presentes no veneno, os cientistas usaram uma técnica chamada proteômica, que estuda as proteínas de uma amostra.
+
+            Primeiro, o veneno foi transformado em uma solução adequada para análise em laboratório. Depois, os componentes foram separados e examinados em um espectrômetro de massas, aparelho que identifica as moléculas presentes.
+
+            Segundo o pesquisador Daniel Pimenta, além de indicar possíveis moléculas com uso médico, o estudo também ajuda a entender melhor a biologia do sapo amazônico, que ainda é pouco estudado.</p>
+
+            <h3>Sapo também consegue lançar veneno</h3> 
+
+            <p>
+                Pesquisas anteriores com o Rhaebo guttatus, publicadas em 2011, mostraram outro comportamento curioso da espécie.
+                
+                Quando se sente ameaçado, o sapo pode lançar veneno a partir das glândulas localizadas atrás dos olhos. Na época, foi a primeira descrição desse tipo de comportamento em um anfíbio na literatura científica.
+                
+                O estudo atual teve financiamento da CAPES e da FAPESP.
+            </p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+             }
+         }
+    </script>
+</body>
+</html>
