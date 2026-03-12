@@ -8,6 +8,7 @@
 
 body, html {
     background-color: lightgray;
+    line-height: 2em;
 }
 
 header {
